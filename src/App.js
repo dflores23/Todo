@@ -110,8 +110,8 @@ function App(props) {
   // _____________
   return (
     <div className="App">
-      <Link to="/"><h1 style={h1}>My Todo List</h1></Link>
-      <Link to="/new"><button style={button}>Create New Todo</button></Link>
+      <Link to="/"><h1 style={h1}>My To Do List</h1></Link>
+      <Link to="/new"><button style={button}>Create New To do</button></Link>
       <Switch>
         {/* INDEX PAGE */}
         <Route
@@ -139,7 +139,7 @@ function App(props) {
               {...rp}
               initialTodo={nullTodo}
               handleSubmit={addTodos}
-              buttonLabel="create a todo"
+              buttonLabel="create a to do"
             />
           )}
         />
